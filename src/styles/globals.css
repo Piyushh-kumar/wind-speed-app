@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.wind-card {
+  @apply rounded-lg shadow-md p-6 bg-white hover:shadow-lg transition-shadow;
+}
+
+.btn-primary {
+  @apply px-4 py-2 bg-primary text-white rounded-lg hover:bg-opacity-90 transition;
+}
+
+.map-container {
+  @apply rounded-lg overflow-hidden shadow-md;
+}
